@@ -6,7 +6,7 @@ Contexto: una persona pide un post sobre su cambio de carrera. Te ha contado que
 
 **Antes:**
 
-> Hace 3 años no sabía programar. Hoy lidero un equipo de 12 personas. 🚀
+> Hace 4 años no sabía programar. Hoy lidero un equipo de 12 personas. 🚀
 >
 > ¿Y si te dijera que el secreto no es el talento?
 >
@@ -14,8 +14,8 @@ Contexto: una persona pide un post sobre su cambio de carrera. Te ha contado que
 >
 > Esto es lo que aprendí en este viaje:
 >
-> ✅ La disciplina gana a la motivación
-> ✅ Rodéate de personas que te lleven al siguiente nivel
+> ✅ La disciplina gana a la motivación\
+> ✅ Rodéate de personas que te lleven al siguiente nivel\
 > ✅ Sal de tu zona de confort
 >
 > La verdad es que cada error fue un aprendizaje enorme. Recuerdo llorar en el coche después de mi primera entrevista. Y eso lo cambia todo.
@@ -68,7 +68,7 @@ Contexto: una persona pide un post sobre su cambio de carrera. Te ha contado que
 >
 > Si el 14 os complica el cierre de mes, dímelo esta semana y vemos qué parte podemos adelantar.
 >
-> Un saludo,
+> Un saludo,\
 > Laura
 
 **Cambios:** El asunto dice la noticia. La primera frase da la fecha nueva. La pasiva ("se han detectado incidencias") pasa a decir qué falló y quién lo arregla. Fuera el "No se trata solo de X, sino de Y", la jerga, los adverbios y las tres fórmulas de cortesía. El cierre ofrece algo concreto en lugar de "quedo a tu disposición".
