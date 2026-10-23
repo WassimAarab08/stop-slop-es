@@ -1,134 +1,163 @@
-# Structures to Avoid
+# Estructuras que hay que evitar
 
-## Binary Contrasts
+## Contrastes binarios
 
-These create false drama. State the point directly.
+Fabrican un drama falso. Di el argumento sin rodeo.
 
-| Pattern | Problem |
-|---------|---------|
-| "Not because X. Because Y." / "Not because X, but because Y." | Telegraphed reversal |
-| "[X] isn't the problem. [Y] is." | Formulaic reframe |
-| "The answer isn't X. It's Y." | Predictable pivot |
-| "It feels like X. It's actually Y." | Setup/reveal cliche |
-| "The question isn't X. It's Y." | Rhetorical misdirection |
-| "Not X. But Y." / "not X, it's Y" / "isn't X, it's Y" | Mechanical contrast |
-| "It's not this. It's that." | Same formula, different words |
-| "stops being X and starts being Y" | False transformation arc |
-| "doesn't mean X, but actually Y" | Negation-then-assertion crutch |
-| "is about X but not Y" | False distinction |
-| "not just X but also Y" | Additive hedge |
+| Patrón | Problema |
+|--------|----------|
+| "No es X, es Y." / "No es X. Es Y." | Contraste mecánico |
+| "No se trata solo de X, sino de Y" | Giro anunciado |
+| "No solo X, sino también Y" | Suma disfrazada de revelación |
+| "No porque X, sino porque Y" / "No por X. Por Y." | Giro telegrafiado |
+| "El problema no es X. Es Y." | Reencuadre de fórmula |
+| "La respuesta no es X. Es Y." | Pivote predecible |
+| "La pregunta no es X, sino Y" | Despiste retórico |
+| "Parece X. En realidad es Y." | Planteamiento y revelación de manual |
+| "Deja de ser X para convertirse en Y" | Arco de transformación falso |
+| "Esto no significa X, sino Y" | Negar para poder afirmar |
+| "Menos X, más Y" | Eslogan |
 
-**Instead:** State Y directly. "The problem is Y." "Y matters here." Drop the negation entirely.
+**En su lugar:** Di Y. "El problema es Y." "Aquí cuenta Y." Quita la negación.
 
-## Negative Listing
+## Listas en negativo
 
-Listing what something is *not* before revealing what it *is*. A rhetorical striptease.
+Enumerar lo que algo *no* es antes de revelar lo que *es*. Un striptease retórico.
 
-| Pattern | Problem |
-|---------|---------|
-| "Not a X... Not a Y... A Z." | Dramatic buildup through negation |
-| "It wasn't X. It wasn't Y. It was Z." | Same structure, past tense |
+| Patrón | Problema |
+|--------|----------|
+| "No era un X. No era un Y. Era un Z." | Suspense fabricado a base de negaciones |
+| "Ni X, ni Y. Z." | La misma fórmula, más corta |
+| "No es magia. No es suerte. Es método." | La versión de LinkedIn |
 
-**Instead:** State Z. The reader doesn't need the runway.
+**En su lugar:** Di Z. El lector no necesita la pista de despegue.
 
-## Dramatic Fragmentation
+## Fragmentación dramática
 
-Sentence fragments for emphasis read as manufactured profundity.
+Las frases a trozos para dar énfasis suenan a profundidad impostada.
 
-| Pattern | Problem |
-|---------|---------|
-| "[Noun]. That's it. That's the [thing]." | Performative simplicity |
-| "X. And Y. And Z." | Staccato drama |
-| "This unlocks something. [Word]." | Artificial revelation |
+| Patrón | Problema |
+|--------|----------|
+| "[Sustantivo]. Punto. Así de simple." | Sencillez de escaparate |
+| "X. E Y. Y Z." | Drama staccato |
+| "Esto desbloquea algo. [Palabra]." | Revelación artificial |
+| "Constancia. Disciplina. Paciencia." | Póster motivacional |
+| Una frase por línea en un post | Ritmo de anuncio |
 
-**Instead:** Complete sentences. Trust content over presentation.
+**En su lugar:** Frases completas. Deja que el contenido haga el trabajo.
 
-## Rhetorical Setups
+## Planteamientos retóricos
 
-These announce insight rather than deliver it.
+Anuncian una idea en vez de darla.
 
-| Pattern | Problem |
-|---------|---------|
-| "What if [reframe]?" | Socratic posturing |
-| "Here's what I mean:" | Redundant preview |
-| "Think about it:" | Condescending prompt |
-| "And that's okay." | Unnecessary permission |
+| Patrón | Problema |
+|--------|----------|
+| "¿Y si te dijera que...?" | Pose socrática |
+| "¿Sabes qué tienen en común X e Y?" | Adivinanza que nadie pidió |
+| "¿El resultado? X." / "¿La clave? X." | Pregunta respondida al instante |
+| "Te explico:" / "Me explico:" | Avance redundante |
+| "Piénsalo:" | Condescendiente |
+| "¿Por qué te cuento esto?" | El texto se justifica a sí mismo |
+| "Y está bien." / "Y no pasa nada." | Permiso que nadie pidió |
 
-**Instead:** Make the point. Let readers draw conclusions.
+**En su lugar:** Di la idea. Deja que el lector saque sus conclusiones.
 
-## Formulaic Constructions
+## Construcciones de fórmula
 
-| Pattern | Problem |
-|---------|---------|
-| "By the time X, I was Y." | Narrative template |
-| "X that isn't Y" | Indirect. Say "X is broken" |
+| Patrón | Problema |
+|--------|----------|
+| "Para cuando X, yo ya Y." | Plantilla narrativa |
+| "Hace X años, [desgracia]. Hoy, [éxito]." | Arranque de historia de LinkedIn |
+| "3 lecciones que aprendí de X" | Lista prometida en el titular |
+| "X que no es Y" | Indirecto. Di "X está roto" |
 
-## False Agency
+## Agencia falsa
 
-Giving inanimate things human verbs. Complaints don't "become" fixes. Bets don't "live or die." Decisions don't "emerge." A person does something to make those things happen. AI loves this because it avoids naming the actor.
+Dar verbos humanos a cosas. Las quejas no "se convierten" en mejoras. Las decisiones no "surgen". Alguien hace algo para que eso pase. A la IA le encanta porque así no tiene que nombrar a nadie.
 
-| Pattern | Problem |
-|---------|---------|
-| "a complaint becomes a fix" | The complaint did nothing. Someone fixed it. |
-| "a bet lives or dies in days" | Bets don't have lifespans. Someone kills the project or ships it. |
-| "the decision emerges" | Decisions don't emerge. Someone decides. |
-| "the culture shifts" | Cultures don't shift on their own. People change behavior. |
-| "the conversation moves toward" | Conversations don't move. Someone steers. |
-| "the data tells us" | Data sits there. Someone reads it and draws a conclusion. |
-| "the market rewards" | Markets don't reward. Buyers pay for things. |
+| Patrón | Problema |
+|--------|----------|
+| "la queja se convierte en mejora" | La queja no hizo nada. Alguien lo arregló. |
+| "la apuesta vive o muere en días" | Las apuestas no viven. Alguien cancela el proyecto o lo lanza. |
+| "la decisión surge" | Las decisiones no surgen. Alguien decide. |
+| "la cultura cambia" | La cultura no cambia sola. Las personas cambian lo que hacen. |
+| "la conversación se desplaza hacia" | Alguien la lleva hacia ahí. |
+| "los datos nos dicen" | Los datos no hablan. Alguien los lee y saca una conclusión. |
+| "el mercado premia" | El mercado no premia. Los clientes pagan por algo. |
+| "el proyecto cobra vida" | Un equipo lo construyó. |
 
-**Instead:** Name the human. "The team fixed it that week" beats "the complaint becomes a fix." If no specific person fits, use "you" to put the reader in the seat.
+**En su lugar:** Nombra a la persona. "El equipo lo arregló esa semana" funciona mejor que "la queja se convierte en mejora". Si no encaja ninguna persona concreta, usa "tú" para poner al lector en el asiento.
 
-## Narrator-from-a-Distance
+## Narrador a distancia
 
-Floating above the scene instead of putting the reader in it.
+Flotar por encima de la escena en lugar de meter al lector dentro.
 
-| Pattern | Problem |
-|---------|---------|
-| "Nobody designed this." | Disembodied observation |
-| "This happens because..." | Lecturer voice |
-| "This is why..." | Same |
-| "People tend to..." | Armchair sociologist |
+| Patrón | Problema |
+|--------|----------|
+| "Nadie diseñó esto." | Observación sin cuerpo |
+| "Esto ocurre porque..." | Voz de conferenciante |
+| "Por eso..." | Lo mismo |
+| "La gente tiende a..." | Sociología de sofá |
+| "Muchos profesionales..." | Multitud anónima |
 
-**Instead:** Put the reader in the room. "You don't sit down one day and decide to..." beats "Nobody designed this."
+**En su lugar:** Mete al lector en la sala. "Un día no te sientas y decides..." funciona mejor que "Nadie diseñó esto".
 
-## Passive Voice
+## Voz pasiva
 
-Every sentence needs a subject doing something. Passive voice hides the actor and drains energy.
+Cada frase necesita un sujeto que haga algo. La pasiva esconde al responsable y le quita fuerza al texto. En español hay dos: la de "ser" + participio y la pasiva con "se". Las dos cuentan.
 
-| Pattern | Fix |
-|---------|-----|
-| "X was created" | Name who created it |
-| "It is believed that" | Name who believes it |
-| "Mistakes were made" | Name who made them |
-| "The decision was reached" | Name who decided |
+| Patrón | Arreglo |
+|--------|---------|
+| "X fue creado" | Di quién lo creó |
+| "Ha sido aprobado por el comité" | "El comité lo aprobó" |
+| "Se cree que" | Di quién lo cree |
+| "Se cometieron errores" | Di quién se equivocó |
+| "Se tomó la decisión" | Di quién decidió |
+| "Se han detectado incidencias" | Di quién las detectó y cuáles son |
 
-**Instead:** Find the actor. Put them at the front of the sentence.
+**En su lugar:** Busca a quien actúa. Ponlo al principio de la frase.
 
-## Sentence Starters to Avoid
+## Arranques de frase que hay que evitar
 
-| Pattern | Fix |
-|---------|-----|
-| Sentences starting with What, When, Where, Which, Who, Why, How | Restructure. Lead with the subject or the verb. |
-| Paragraphs starting with "So" | Start with content |
-| Sentences starting with "Look," | Remove |
+| Patrón | Arreglo |
+|--------|---------|
+| Frases que empiezan por Qué, Cuándo, Dónde, Cuál, Quién, Por qué, Cómo | Reestructura. Empieza por el sujeto o por el verbo. |
+| Frases que empiezan por "Lo que" ("Lo que hace esto difícil es...") | Igual. Es la versión española del arranque en Wh- |
+| Párrafos que empiezan por "Así que", "Pues" o "Bueno" | Empieza por el contenido |
+| Frases que empiezan por "Mira," u "Ojo," | Quítalo |
 
-Wh- openers become a crutch. "What makes this hard is..." becomes "The constraint is..." or better, name the specific constraint.
+"Lo que hace esto difícil es..." pasa a "La limitación es...", o mejor, nombra la limitación concreta.
 
-## Rhythm Patterns
+## Patrones de ritmo
 
-| Pattern | Fix |
-|---------|-----|
-| Three-item lists | Use two items or one |
-| Questions answered immediately | Let questions breathe or cut them |
-| Every paragraph ends punchily | Vary endings |
-| Em-dashes | Remove. Use commas or periods. No em dashes at all. |
-| Staccato fragmentation | Don't stack short punchy sentences |
-| "Not always. Not perfectly." | Hedging disguised as reassurance |
+| Patrón | Arreglo |
+|--------|---------|
+| Listas de tres elementos | Usa dos o uno |
+| Preguntas respondidas al instante | Deja que respiren o quítalas |
+| Todos los párrafos acaban con frase lapidaria | Varía los cierres |
+| Rayas largas (—) | Quítalas. Usa comas, paréntesis o punto. En español la raya es correcta en incisos y diálogos, pero la IA la usa como pausa dramática al estilo inglés. Fuera todas. |
+| Fragmentación staccato | No apiles frases cortas de efecto |
+| "No siempre. No a la perfección." | Duda disfrazada de tranquilidad |
+| Exclamaciones en cadena ("¡Increíble!", "¡Vamos!") | Una como mucho, y solo si la diría una persona |
 
-## Word Patterns
+## Patrones de palabras
 
-| Pattern | Problem |
-|---------|---------|
-| Lazy extremes (every, always, never, everyone, everybody, nobody) | False authority. Use specifics instead of sweeping claims. |
-| All adverbs (-ly words, "really," "just," "literally," "genuinely," "honestly," "simply," "actually") | Empty emphasis. See phrases.md for full list. |
+| Patrón | Problema |
+|--------|----------|
+| Extremos perezosos (todo, siempre, nunca, todos, nadie, cualquiera) | Autoridad falsa. Usa datos concretos en vez de afirmaciones totales. |
+| Adverbios ("básicamente", "realmente", "literalmente", "simplemente") | Énfasis vacío. Ver phrases.md para la lista completa. |
+| Adjetivos inflados (clave, crucial, fundamental, esencial, robusto, apasionante, transformador) | Dicen que algo importa sin enseñar por qué. Quítalos o enseña el porqué. |
+
+## Calcos del inglés
+
+La IA piensa en inglés y traduce. Se nota en estos detalles:
+
+| Patrón | Arreglo |
+|--------|---------|
+| Mayúsculas en cada palabra de un título ("Cómo Mejorar Tu Productividad") | En español solo llevan mayúscula la primera palabra y los nombres propios |
+| Gerundio de posterioridad ("Lanzamos la app, consiguiendo 10.000 usuarios") | "Lanzamos la app y conseguimos 10.000 usuarios" |
+| "Es importante notar que" | Quítalo |
+| "Hacer sentido" | "Tener sentido" |
+| "Aplicar a un puesto" | "Presentarse a un puesto" |
+| "Al final del día" | "Al final", o nada |
+| Posesivos de más ("Levanté mi mano") | "Levanté la mano" |

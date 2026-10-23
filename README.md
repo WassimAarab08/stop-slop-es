@@ -1,62 +1,66 @@
-# Stop Slop
+# Stop Slop en español
 
-A skill for removing AI tells from prose.
+Adaptación al español de [stop-slop](https://github.com/hardikpandya/stop-slop), de Hardik Pandya.
 
-<img width="3840" height="2160" alt="G-Yg4RVbIAAhVxW" src="https://github.com/user-attachments/assets/902afc15-1f40-4a9d-af24-8cd67afb8ebf" />
+Esta skill le enseña a Claude, o a cualquier otro modelo, a detectar y quitar las marcas de la escritura generada por IA cuando escribe en español. Es gratuita y usa la misma licencia MIT que el original.
 
-## What this is
+## Para qué sirve
 
-AI writing has patterns. Predictable phrases, structures, rhythms. This skill teaches Claude (or any LLM) to catch and remove them.
+Los modelos de lenguaje repiten frases, estructuras y ritmos. En español abren correos con "Espero que este mensaje te encuentre bien", cierran posts con "Te leo en comentarios" y meten un "No es X, es Y" en cuanto pueden. Con la skill cargada, el modelo revisa el borrador contra una lista de esos patrones y lo reescribe antes de entregártelo.
 
-## Skill Structure
+## Estructura
 
 ```
-stop-slop/
-├── SKILL.md              # Core instructions
+stop-slop-es/
+├── SKILL.md              # Instrucciones principales
 ├── references/
-│   ├── phrases.md        # Phrases to remove
-│   ├── structures.md     # Structural patterns to avoid
-│   └── examples.md       # Before/after transformations
+│   ├── phrases.md        # Frases que hay que quitar
+│   ├── structures.md     # Estructuras que hay que evitar
+│   └── examples.md       # Ejemplos de antes y después
 ├── README.md
+├── CHANGELOG.md
 └── LICENSE
 ```
 
-## Quick start
+## Instalación en Claude Code
 
-**Claude Code:** Add this folder as a skill.
+Clona el repositorio en tu carpeta de skills personales:
 
-**Claude Projects:** Upload `SKILL.md` and reference files to project knowledge.
+```bash
+git clone https://github.com/WassimAarab08/stop-slop-es.git ~/.claude/skills/stop-slop-es
+```
 
-**Custom instructions:** Copy core rules from `SKILL.md`.
+En Windows la carpeta está en `%USERPROFILE%\.claude\skills\`. Para usarla en un solo proyecto, clónala en `.claude/skills/stop-slop-es` dentro de ese proyecto.
 
-**API calls:** Include `SKILL.md` in your system prompt. Reference files load on demand.
+Claude Code la detecta en la siguiente sesión. Puedes invocarla con `/stop-slop-es` o dejar que Claude la cargue cuando le pidas redactar o revisar un texto.
 
-## What it catches
+## Uso en Claude Projects y en otras IA
 
-**Banned phrases** - Throat-clearing openers, emphasis crutches, business jargon, all adverbs, vague declaratives, meta-commentary. See `references/phrases.md`.
+**Claude Projects:** sube `SKILL.md` y los tres archivos de `references/` al conocimiento del proyecto.
 
-**Structural clichés** - Binary contrasts, negative listings, dramatic fragmentation, rhetorical setups, false agency, narrator-from-a-distance voice, passive voice. See `references/structures.md`.
+**ChatGPT, Gemini y otros asistentes:** pega las reglas de `SKILL.md` en las instrucciones personalizadas o en las instrucciones de tu GPT o Gem. Si el asistente acepta archivos, adjunta también los de `references/`.
 
-**Sentence-level rules** - No Wh- sentence starters, no em dashes, no staccato fragmentation, no lazy extremes, active voice required.
+**API:** pon `SKILL.md` en el prompt de sistema y añade los archivos de `references/` cuando los necesites.
 
-## Scoring
+## Cambios respecto al original
 
-Rate 1-10 on each dimension:
+La adaptación conserva las reglas generales de Hardik Pandya: voz activa, nada de rayas largas, concreción, ritmo variado y la puntuación sobre 50. Por debajo de 35, toca reescribir.
 
-| Dimension | Question |
-|-----------|----------|
-| Directness | Statements or announcements? |
-| Rhythm | Varied or metronomic? |
-| Trust | Respects reader intelligence? |
-| Authenticity | Sounds human? |
-| Density | Anything cuttable? |
+Las diferencias:
 
-Below 35/50: revise.
+- Las listas de frases no son traducciones. Recogen las fórmulas que la IA usa en español: "La verdad es que", "poner en valor", "básicamente", "Quedo a tu entera disposición".
+- `phrases.md` tiene dos secciones nuevas: cierres de LinkedIn y fórmulas de correo.
+- La regla de la pasiva incluye la pasiva con "se" ("se tomó la decisión"), que esconde al responsable igual que la de "ser".
+- Las frases que empiezan por "Lo que..." cuentan como arranques con interrogativo, el equivalente español del arranque en Wh-.
+- `structures.md` añade una sección de calcos del inglés, como las mayúsculas en cada palabra de un título o el gerundio de posterioridad.
+- Los ejemplos son nuevos: un post de LinkedIn, un correo de trabajo y un mensaje de Slack, cada uno con su antes y su después.
+- Hay una regla nueva: si escribes en nombre de otra persona, no inventes experiencias que no te ha contado.
+- La skill se llama `stop-slop-es`, así puedes tener instaladas la original y esta sin conflicto de nombres.
 
-## Author
+## Créditos
 
-[Hardik Pandya](https://hvpandya.com)
+Hardik Pandya ([hvpandya.com](https://hvpandya.com)) creó la skill original: la idea, la estructura y las reglas base. [Wassim Aarab](https://github.com/WassimAarab08) la adaptó al español.
 
-## License
+## Licencia
 
-MIT. Use freely, share widely.
+MIT, como el original. El archivo [LICENSE](LICENSE) mantiene el copyright de Hardik Pandya y añade el de la adaptación.

@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-10-23 (stop-slop-es)
+
+- Adaptación al español por Wassim Aarab: reglas, frases, estructuras y ejemplos reescritos con los patrones que la IA usa en español.
+- Nuevas secciones: cierres de LinkedIn, fórmulas de correo y calcos del inglés.
+- Nueva regla: no inventar vivencias al escribir en nombre de otra persona.
+
 ## 2026-01-13
 
 ### Added

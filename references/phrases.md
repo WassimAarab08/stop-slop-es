@@ -1,128 +1,194 @@
-# Phrases to Remove
+# Frases que hay que quitar
 
-## Throat-Clearing Openers
+## Aperturas de relleno
 
-Remove these announcement phrases. State the content directly.
+Anuncian que viene algo en lugar de decirlo. Quítalas y empieza por el contenido.
 
-- "Here's the thing:"
-- "Here's what [X]"
-- "Here's this [X]"
-- "Here's that [X]"
-- "Here's why [X]"
-- "The uncomfortable truth is"
-- "It turns out"
-- "The real [X] is"
-- "Let me be clear"
-- "The truth is,"
-- "I'll say it again:"
-- "I'm going to be honest"
-- "Can we talk about"
-- "Here's what I find interesting"
-- "Here's the problem though"
+- "Espero que este mensaje te encuentre bien"
+- "La verdad es que"
+- "Resulta que"
+- "Hablemos de"
+- "Vamos al grano"
+- "Vamos allá"
+- "Hoy quiero hablaros de"
+- "Te cuento algo:"
+- "Esto es lo que [X]:" / "Esto es lo interesante:"
+- "Aquí va el problema:"
+- "Te explico por qué"
+- "La incómoda verdad es que"
+- "El verdadero [X] es"
+- "Seamos claros" / "Seamos sinceros"
+- "Lo diré una vez más:"
+- "Voy a ser honesto"
+- "¿Podemos hablar de [X]?"
+- "Déjame explicarte"
+- "Abro hilo"
 
-Any "here's what/this/that" construction is throat-clearing before the point. Cut it and state the point.
+Cualquier "esto es lo que..." o "aquí está el..." es calentamiento antes del argumento. Córtalo y di el argumento.
 
-## Emphasis Crutches
+## Muletillas de énfasis
 
-These add no meaning. Delete them.
+No añaden significado. Bórralas.
 
-- "Full stop." / "Period."
-- "Let that sink in."
-- "This matters because"
-- "Make no mistake"
-- "Here's why that matters"
+- "Esto lo cambia todo"
+- "Y esto importa porque"
+- "Punto." / "Punto final."
+- "Un antes y un después"
+- "Léelo otra vez."
+- "Que no te quepa duda"
+- "Sin lugar a dudas"
+- "Y no, no es casualidad."
+- "Así de simple." / "Así de claro."
+- "Ni más ni menos."
+- "Aquí está la clave"
 
-## Business Jargon
+## Jerga
 
-Replace with plain language.
+Cámbiala por lenguaje llano. Mejor aún: di qué ha pasado y con qué cifra.
 
-| Avoid | Use instead |
-|-------|-------------|
-| Navigate (challenges) | Handle, address |
-| Unpack (analysis) | Explain, examine |
-| Lean into | Accept, embrace |
-| Landscape (context) | Situation, field |
-| Game-changer | Significant, important |
-| Double down | Commit, increase |
-| Deep dive | Analysis, examination |
-| Take a step back | Reconsider |
-| Moving forward | Next, from now |
-| Circle back | Return to, revisit |
-| On the same page | Aligned, agreed |
+| Evita | Usa en su lugar |
+|-------|-----------------|
+| Poner en valor | Destacar, explicar qué aporta |
+| Sinergias | Di qué hace cada equipo |
+| Llevar al siguiente nivel | Di qué mejora y cuánto |
+| Aportar valor | Di qué problema resuelve |
+| En este viaje / en este camino | En este proyecto, este año |
+| Apostar por | Elegir, invertir en |
+| Impulsar / potenciar | Aumentar, mejorar (con cifra) |
+| Empoderar | Dar autonomía, dejar decidir |
+| Ecosistema | Nombra las herramientas o las personas |
+| Hoja de ruta | Plan |
+| Abordar (retos) | Resolver, tratar |
+| Desgranar | Explicar |
+| Cambio de paradigma | Di qué cambia |
+| Disruptivo / revulsivo | Nuevo, distinto (di en qué) |
+| Estar alineados | Estar de acuerdo |
+| Salir de la zona de confort | Di qué probaste |
+| Resiliencia | Aguantar, recuperarse |
+| Accionable | Concreto, que se puede hacer |
+| A nivel de | En, sobre |
+| De cara a | Para |
+| Implementar | Poner en marcha, usar |
 
-## Adverbs
+## Adverbios
 
-Kill all adverbs. No -ly words. No softeners, no intensifiers, no hedges.
+Fuera los adverbios. Sobre todo los terminados en -mente, los suavizadores, los intensificadores y las coletillas.
 
-Specific offenders:
+Los más repetidos:
 
-- "really"
-- "just"
-- "literally"
-- "genuinely"
-- "honestly"
-- "simply"
-- "actually"
-- "deeply"
-- "truly"
-- "fundamentally"
-- "inherently"
-- "inevitably"
-- "interestingly"
-- "importantly"
-- "crucially"
+- "básicamente"
+- "literalmente"
+- "realmente"
+- "sinceramente"
+- "simplemente"
+- "increíblemente"
+- "plenamente"
+- "enormemente"
+- "verdaderamente"
+- "profundamente"
+- "fundamentalmente"
+- "absolutamente"
+- "totalmente"
+- "claramente"
+- "honestamente"
+- "definitivamente"
+- "esencialmente"
+- "inevitablemente"
+- "curiosamente"
+- "de verdad"
+- "en realidad"
+- "solo" / "tan solo" (cuando no limita nada)
 
-Also cut these filler phrases:
+Quita también estas frases de relleno:
 
-- "At its core"
-- "In today's [X]"
-- "It's worth noting"
-- "At the end of the day"
-- "When it comes to"
-- "In a world where"
-- "The reality is"
+- "En el fondo"
+- "En el mundo actual" / "En la era de [X]" / "En un mundo cada vez más [X]"
+- "En un mundo donde"
+- "A día de hoy"
+- "Cabe destacar que" / "Es importante señalar que" / "Vale la pena mencionar"
+- "Al final del día" / "A fin de cuentas"
+- "Cuando se trata de" / "En lo que respecta a"
+- "La realidad es que"
+- "Dicho esto,"
+- "En este sentido,"
+- "En definitiva," (para abrir una conclusión)
 
-## Meta-Commentary
+## Metacomentario
 
-Remove self-referential asides. The essay should move, not announce its own structure.
+Quita los apartes sobre el propio texto. El texto avanza; no anuncia su estructura.
 
-- "Hint:"
-- "Plot twist:" / "Spoiler:"
-- "You already know this, but"
-- "But that's another post"
-- "X is a feature, not a bug"
-- "Dressed up as"
-- "The rest of this essay explains..."
-- "Let me walk you through..."
-- "In this section, we'll..."
-- "As we'll see..."
-- "I want to explore..."
+- "Pista:" / "Ojo:"
+- "Giro de guion:" / "Spoiler:"
+- "Ya lo sabes, pero"
+- "Pero eso da para otro post"
+- "No es un fallo, es una característica"
+- "Disfrazado de"
+- "En el resto del artículo veremos..."
+- "Déjame guiarte por..."
+- "En esta sección vamos a..."
+- "Como veremos más adelante..."
+- "Quiero explorar..."
+- "Te lo cuento en el hilo"
 
-## Performative Emphasis
+## Énfasis impostado
 
-False intimacy or manufactured sincerity:
+Cercanía fabricada o sinceridad de cartón:
 
-- "creeps in"
-- "I promise"
-- "They exist, I promise"
+- "Te lo prometo"
+- "Existen, te lo prometo"
+- "Y sí, lo digo en serio"
+- "Créeme"
+- "Con el corazón en la mano"
+- "Hablo desde la experiencia" (sin contar la experiencia)
 
-## Telling Instead of Showing
+## Contar en vez de mostrar
 
-Announcing difficulty or significance rather than demonstrating it:
+Anuncian que algo es difícil o importante en lugar de demostrarlo:
 
-- "This is genuinely hard"
-- "This is what leadership actually looks like"
-- "This is what X actually looks like"
-- "actually matters"
+- "Esto es muy difícil"
+- "Así es el liderazgo de verdad"
+- "Así es como se ve [X] de verdad"
+- "Esto sí que importa"
+- "Fue un aprendizaje enorme"
 
-## Vague Declaratives
+## Afirmaciones vagas
 
-Sentences that announce importance without naming the specific thing. Kill these.
+Frases que declaran importancia sin nombrar la cosa importante. Quítalas.
 
-- "The reasons are structural"
-- "The implications are significant"
-- "This is the deepest problem"
-- "The stakes are high"
-- "The consequences are real"
+- "Las razones son estructurales"
+- "Las implicaciones son enormes"
+- "Este es el problema de fondo"
+- "Hay mucho en juego"
+- "Las consecuencias son reales"
+- "El impacto es innegable"
 
-If a sentence says something is important/deep/structural without showing the specific thing, cut it or replace it with the specific thing.
+Si una frase dice que algo es importante, profundo o estructural sin enseñar el qué, bórrala o cámbiala por el qué.
+
+## Cierres de LinkedIn
+
+Piden interacción en lugar de terminar la idea.
+
+- "¿Y tú qué opinas?" / "¿Te ha pasado?" / "¿Estás de acuerdo?"
+- "Te leo en comentarios 👇"
+- "Si te ha servido, compártelo ♻️"
+- "Sígueme para más contenido como este"
+- "Guarda este post para leerlo más tarde"
+- Listas con ✅, 👉 o 🚀, o un emoji al principio de cada línea
+- Más de tres hashtags (#Liderazgo #Innovación #Motivación #Crecimiento...)
+
+**En su lugar:** Termina cuando termine la idea. Si quieres respuestas, haz una pregunta concreta que solo tu lector sepa contestar.
+
+## Fórmulas de correo
+
+| Evita | Usa en su lugar |
+|-------|-----------------|
+| "Espero que este mensaje te encuentre bien" | Nada. Empieza por el motivo. |
+| "Te escribo para..." | Di lo que necesitas. |
+| "Quedo a tu entera disposición" | "Si te falta algo, dímelo." O nada. |
+| "No dudes en contactarme" | Nada, o "Llámame si [caso concreto]". |
+| "Agradecemos enormemente tu paciencia y comprensión" | "Gracias por esperar." |
+| "Lamentamos las molestias ocasionadas" | Nombra la molestia y lo que vas a hacer. |
+| "Quería hacer un seguimiento de" | "¿Has podido mirar [X]?" |
+| "Por medio de la presente" | Nada. |
+| "Adjunto le remito" | "Te adjunto" |
+| "Sin otro particular, reciba un cordial saludo" | "Un saludo" |

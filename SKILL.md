@@ -1,68 +1,76 @@
 ---
-name: stop-slop
-description: Remove AI writing patterns from prose. Use when drafting, editing, or reviewing text to eliminate predictable AI tells.
+name: stop-slop-es
+description: Elimina los patrones de escritura de IA en textos en español. Úsala al redactar, editar o revisar posts, correos, mensajes o cualquier texto para quitar las marcas predecibles de la IA.
 metadata:
-  trigger: Writing prose, editing drafts, reviewing content for AI patterns
+  trigger: Redactar prosa en español, editar borradores, revisar contenido en busca de patrones de IA
   author: Hardik Pandya (https://hvpandya.com)
+  original: https://github.com/hardikpandya/stop-slop
+  adapter: Wassim Aarab (https://github.com/WassimAarab08)
+  language: es
 ---
 
-# Stop Slop
+# Stop Slop (español)
 
-Eliminate predictable AI writing patterns from prose.
+Elimina de la prosa los patrones predecibles de la escritura generada por IA.
 
-## Core Rules
+## Reglas principales
 
-1. **Cut filler phrases.** Remove throat-clearing openers, emphasis crutches, and all adverbs. See [references/phrases.md](references/phrases.md).
+1. **Quita el relleno.** Fuera las aperturas de calentamiento, las muletillas de énfasis, la jerga corporativa y los adverbios. Ver [references/phrases.md](references/phrases.md).
 
-2. **Break formulaic structures.** Avoid binary contrasts, negative listings, dramatic fragmentation, rhetorical setups, false agency. See [references/structures.md](references/structures.md).
+2. **Rompe las estructuras de fórmula.** Evita los contrastes binarios ("No es X, es Y"), las listas en negativo, la fragmentación dramática, las preguntas retóricas de arranque y la agencia falsa. Ver [references/structures.md](references/structures.md).
 
-3. **Use active voice.** Every sentence needs a human subject doing something. No passive constructions. No inanimate objects performing human actions ("the complaint becomes a fix").
+3. **Usa la voz activa.** Cada frase necesita un sujeto humano que haga algo. Nada de pasivas ("fue aprobado") ni de pasivas con "se" que esconden al responsable ("se tomó la decisión"). Nada de objetos que hacen cosas de personas ("la queja se convierte en mejora").
 
-4. **Be specific.** No vague declaratives ("The reasons are structural"). Name the specific thing. No lazy extremes ("every," "always," "never") doing vague work.
+4. **Sé concreto.** Nada de afirmaciones vagas ("Las razones son estructurales"). Nombra la cosa concreta. Nada de extremos perezosos ("todo", "siempre", "nunca", "nadie") haciendo un trabajo que no les toca.
 
-5. **Put the reader in the room.** No narrator-from-a-distance voice. "You" beats "People." Specifics beat abstractions.
+5. **Mete al lector en la escena.** Nada de narrador que observa desde lejos. "Tú" funciona mejor que "la gente". Lo concreto gana a lo abstracto.
 
-6. **Vary rhythm.** Mix sentence lengths. Two items beat three. End paragraphs differently. No em dashes.
+6. **Varía el ritmo.** Mezcla frases largas y cortas. Dos elementos funcionan mejor que tres. Cierra cada párrafo de una manera distinta. Nada de rayas largas (—).
 
-7. **Trust readers.** State facts directly. Skip softening, justification, hand-holding.
+7. **Confía en el lector.** Afirma los hechos sin rodeos. Sin suavizar, sin justificarte, sin llevarle de la mano.
 
-8. **Cut quotables.** If it sounds like a pull-quote, rewrite it.
+8. **Quita las frases de póster.** Si suena a cita para enmarcar o a post motivacional, reescríbela.
 
-## Quick Checks
+9. **No inventes vivencias ajenas.** Si escribes en nombre de otra persona, usa solo las experiencias, datos y opiniones que te ha contado. Nada de anécdotas, cifras, emociones ni aprendizajes de relleno ("Recuerdo mi primer día...", "Me emocioné al ver..."). Si falta material, pregunta o deja un hueco marcado como `[completar]`.
 
-Before delivering prose:
+## Comprobaciones rápidas
 
-- Any adverbs? Kill them.
-- Any passive voice? Find the actor, make them the subject.
-- Inanimate thing doing a human verb ("the decision emerges")? Name the person.
-- Sentence starts with a Wh- word? Restructure it.
-- Any "here's what/this/that" throat-clearing? Cut to the point.
-- Any "not X, it's Y" contrasts? State Y directly.
-- Three consecutive sentences match length? Break one.
-- Paragraph ends with punchy one-liner? Vary it.
-- Em-dash anywhere? Remove it.
-- Vague declarative ("The implications are significant")? Name the specific implication.
-- Narrator-from-a-distance ("Nobody designed this")? Put the reader in the scene.
-- Meta-joiners ("The rest of this essay...")? Delete. Let the essay move.
+Antes de entregar un texto:
 
-## Scoring
+- ¿Hay adverbios? Quítalos.
+- ¿Hay pasivas, con "ser" o con "se"? Busca a quien hace la acción y ponlo de sujeto.
+- ¿Una cosa hace algo propio de una persona ("la decisión surge")? Nombra a la persona.
+- ¿Alguna frase empieza por Qué, Cómo, Por qué o "Lo que"? Reestructúrala.
+- ¿Hay calentamiento tipo "La verdad es que" o "Esto es lo que aprendí"? Ve al grano.
+- ¿Hay algún "No es X, es Y" o "No solo X, sino Y"? Di Y.
+- ¿Tres frases seguidas miden lo mismo? Rompe una.
+- ¿El párrafo acaba con una frase lapidaria? Cambia el cierre.
+- ¿Hay alguna raya larga? Quítala.
+- ¿Hay una afirmación vaga ("Las implicaciones son enormes")? Nombra la implicación.
+- ¿Habla un narrador a distancia ("Nadie diseñó esto")? Pon al lector en la escena.
+- ¿Hay metacomentarios ("En el resto del artículo...")? Bórralos y avanza.
+- ¿Cierre de LinkedIn, un emoji por línea o más de tres hashtags? Fuera.
+- ¿Suena a inglés traducido (Mayúsculas En Cada Palabra, gerundio de posterioridad)? Reescríbelo en español.
+- ¿Escribes por otra persona? Comprueba que cada vivencia y cada dato salen de lo que te contó.
 
-Rate 1-10 on each dimension:
+## Puntuación
 
-| Dimension | Question |
+Puntúa de 1 a 10 cada dimensión:
+
+| Dimensión | Pregunta |
 |-----------|----------|
-| Directness | Statements or announcements? |
-| Rhythm | Varied or metronomic? |
-| Trust | Respects reader intelligence? |
-| Authenticity | Sounds human? |
-| Density | Anything cuttable? |
+| Claridad | ¿Afirma o anuncia? |
+| Ritmo | ¿Variado o de metrónomo? |
+| Confianza | ¿Respeta la inteligencia del lector? |
+| Autenticidad | ¿Suena a una persona? |
+| Densidad | ¿Sobra algo? |
 
-Below 35/50: revise.
+Por debajo de 35/50: reescribe.
 
-## Examples
+## Ejemplos
 
-See [references/examples.md](references/examples.md) for before/after transformations.
+Ver [references/examples.md](references/examples.md) para transformaciones de antes y después.
 
-## License
+## Licencia
 
 MIT
